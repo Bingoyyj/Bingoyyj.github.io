@@ -47,33 +47,6 @@
   </entry>
   
   <entry>
-    <title>markdown</title>
-    <link href="http://yoursite.com/markdown/"/>
-    <id>http://yoursite.com/markdown/</id>
-    <published>2020-04-05T09:35:29.834Z</published>
-    <updated>2020-04-05T09:37:04.970Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="computer language learning" scheme="http://yoursite.com/categories/computer-language-learning/"/>
-    
-    
-      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
     <title>C++</title>
     <link href="http://yoursite.com/C++/"/>
     <id>http://yoursite.com/C++/</id>

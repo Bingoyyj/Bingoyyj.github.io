@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>markdown</title>
+    <url>/markdown/</url>
+    <content><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="段落样式"><a href="#段落样式" class="headerlink" title="段落样式"></a>段落样式</h1><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>斜体文本</em><br><em>斜体文本</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong><br><strong><em>粗斜体文本</em></strong></p>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<h2 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h2><p><del>删除</del></p>
+<h2 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h2><p><u>带下划线文本</u></p>
+<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>创建脚注格式类似这样 [^RUNOOB]。</p>
+<p>[^RUNOOB]: 菜鸟教程 – 学的不仅是技术，更是梦想！！！</p>
+<h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<h2 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h2><ol>
+<li>第一项：<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<h1 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h1><h2 id="普通区块"><a href="#普通区块" class="headerlink" title="普通区块"></a>普通区块</h2><blockquote>
+<p>区块引用<br>菜鸟教程<br>学的不仅是技术更是梦想</p>
+</blockquote>
+<h2 id="区块嵌套"><a href="#区块嵌套" class="headerlink" title="区块嵌套"></a>区块嵌套</h2><blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="区块列表"><a href="#区块列表" class="headerlink" title="区块列表"></a>区块列表</h2><blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<h2 id="列表区块"><a href="#列表区块" class="headerlink" title="列表区块"></a>列表区块</h2><ul>
+<li>第一项<blockquote>
+<p>菜鸟教程<br>学的不仅是技术更是梦想</p>
+</blockquote>
+</li>
+<li>第二项</li>
+</ul>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><h2 id="片段代码"><a href="#片段代码" class="headerlink" title="片段代码"></a>片段代码</h2><p><code>printf()</code> 函数</p>
+<h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><pre><code>&lt;?php
+echo &apos;hello world&apos;;
+function test(){
+echo &apos;test&apos;;
+}</code></pre><h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    alert(<span class="string">'RUNOOB'</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<h1 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h1><h2 id="普通链接"><a href="#普通链接" class="headerlink" title="普通链接"></a>普通链接</h2><h3 id="方法一-1"><a href="#方法一-1" class="headerlink" title="方法一"></a>方法一</h3><p>这是一个链接 <a href="https://www.runoob.com" target="_blank" rel="noopener">菜鸟教程</a></p>
+<h3 id="方法二-1"><a href="#方法二-1" class="headerlink" title="方法二"></a>方法二</h3><p><a href="https://www.runoob.com" target="_blank" rel="noopener">https://www.runoob.com</a></p>
+<h2 id="高级链接"><a href="#高级链接" class="headerlink" title="高级链接"></a>高级链接</h2><p>这个链接用 1 作为网址变量 <a href="http://www.google.com/" target="_blank" rel="noopener">Google</a><br>这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/" target="_blank" rel="noopener">Runoob</a><br>然后在文档的结尾为变量赋值（网址）</p>
+<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><h2 id="普通链接-1"><a href="#普通链接-1" class="headerlink" title="普通链接"></a>普通链接</h2><p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标"></p>
+<p><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" title="RUNOOB"></p>
+<h2 id="高级链接-1"><a href="#高级链接-1" class="headerlink" title="高级链接"></a>高级链接</h2><p>这个链接用 1 作为网址变量 <a href="http://www.google.com/" target="_blank" rel="noopener">RUNOOB</a>.<br>然后在文档的结尾为变量赋值（网址）</p>
+<h2 id="设置高宽"><a href="#设置高宽" class="headerlink" title="设置高宽"></a>设置高宽</h2><img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h2 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h2><table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<h2 id="对齐方式"><a href="#对齐方式" class="headerlink" title="对齐方式"></a>对齐方式</h2><table>
+<thead>
+<tr>
+<th align="left">左对齐</th>
+<th align="right">右对齐</th>
+<th align="center">居中对齐</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="right">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+<h1 id="高级技巧"><a href="#高级技巧" class="headerlink" title="高级技巧"></a>高级技巧</h1><h2 id="HTML元素"><a href="#HTML元素" class="headerlink" title="HTML元素"></a>HTML元素</h2><p>目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等<br>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<h2 id="转义"><a href="#转义" class="headerlink" title="转义"></a>转义</h2><p>`   反引号<br>*   星号<br>_   下划线<br>{}  花括号<br>[]  方括号<br>()  小括号<br>#   井字号<br>+   加号<br>-   减号<br>.   英文句点<br>!   感叹号</p>
+<h2 id="公式"><a href="#公式" class="headerlink" title="公式"></a>公式</h2><p>$$<br>\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}<br>\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \<br>\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \<br>\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0 \<br>\end{vmatrix}<br>${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}<br>$$</p>
+<h2 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h2><h3 id="横向流程图"><a href="#横向流程图" class="headerlink" title="横向流程图"></a>横向流程图</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph LR</span><br><span class="line">A[方形] --&gt;B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt;|a&#x3D;1| D[结果1]</span><br><span class="line">    C --&gt;|a&#x3D;2| E[结果2]</span><br><span class="line">    F[横向流程图]</span><br></pre></td></tr></table></figure>
+
+<h3 id="竖向流程图"><a href="#竖向流程图" class="headerlink" title="竖向流程图"></a>竖向流程图</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[方形] --&gt; B(圆角)</span><br><span class="line">    B --&gt; C&#123;条件a&#125;</span><br><span class="line">    C --&gt; |a&#x3D;1| D[结果1]</span><br><span class="line">    C --&gt; |a&#x3D;2| E[结果2]</span><br><span class="line">    F[竖向流程图]</span><br></pre></td></tr></table></figure>
+
+<h3 id="标准流程图1"><a href="#标准流程图1" class="headerlink" title="标准流程图1"></a>标准流程图1</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: 开始框</span><br><span class="line">op&#x3D;&gt;operation: 处理框</span><br><span class="line">cond&#x3D;&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1&#x3D;&gt;subroutine: 子流程</span><br><span class="line">io&#x3D;&gt;inputoutput: 输入输出框</span><br><span class="line">e&#x3D;&gt;end: 结束框</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;io-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br></pre></td></tr></table></figure>
+
+<h3 id="标准流程图2"><a href="#标准流程图2" class="headerlink" title="标准流程图2"></a>标准流程图2</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">st&#x3D;&gt;start: 开始框</span><br><span class="line">op&#x3D;&gt;operation: 处理框</span><br><span class="line">cond&#x3D;&gt;condition: 判断框(是或否?)</span><br><span class="line">sub1&#x3D;&gt;subroutine: 子流程</span><br><span class="line">io&#x3D;&gt;inputoutput: 输入输出框</span><br><span class="line">e&#x3D;&gt;end: 结束框</span><br><span class="line">st(right)-&gt;op(right)-&gt;cond</span><br><span class="line">cond(yes)-&gt;io(bottom)-&gt;e</span><br><span class="line">cond(no)-&gt;sub1(right)-&gt;op</span><br></pre></td></tr></table></figure>
+
+<h2 id="UML时序图"><a href="#UML时序图" class="headerlink" title="UML时序图"></a>UML时序图</h2><h3 id="UML时序图1"><a href="#UML时序图1" class="headerlink" title="UML时序图1"></a>UML时序图1</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br></pre></td></tr></table></figure>
+
+<h3 id="UML时序图2"><a href="#UML时序图2" class="headerlink" title="UML时序图2"></a>UML时序图2</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Title: 标题：复杂使用</span><br><span class="line">对象A-&gt;对象B: 对象B你好吗?（请求）</span><br><span class="line">Note right of 对象B: 对象B的描述</span><br><span class="line">Note left of 对象A: 对象A的描述(提示)</span><br><span class="line">对象B--&gt;对象A: 我很好(响应)</span><br><span class="line">对象B-&gt;小三: 你好吗</span><br><span class="line">小三--&gt;&gt;对象A: 对象B找我了</span><br><span class="line">对象A-&gt;对象B: 你真的好吗？</span><br><span class="line">Note over 小三,对象B: 我们是朋友</span><br><span class="line">participant C</span><br><span class="line">Note right of C: 没人陪我玩</span><br></pre></td></tr></table></figure>
+
+<h3 id="UML时序图3"><a href="#UML时序图3" class="headerlink" title="UML时序图3"></a>UML时序图3</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%% 时序图例子,-&gt; 直线，--&gt;虚线，-&gt;&gt;实线箭头</span><br><span class="line">  sequenceDiagram</span><br><span class="line">    participant 张三</span><br><span class="line">    participant 李四</span><br><span class="line">    张三-&gt;王五: 王五你好吗？</span><br><span class="line">    loop 健康检查</span><br><span class="line">        王五-&gt;王五: 与疾病战斗</span><br><span class="line">    end</span><br><span class="line">    Note right of 王五: 合理 食物 &lt;br&#x2F;&gt;看医生...</span><br><span class="line">    李四--&gt;&gt;张三: 很好!</span><br><span class="line">    王五-&gt;李四: 你怎么样?</span><br><span class="line">    李四--&gt;王五: 很好!</span><br></pre></td></tr></table></figure>
+
+<h2 id="甘特图"><a href="#甘特图" class="headerlink" title="甘特图"></a>甘特图</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">%% 语法示例</span><br><span class="line">gantt</span><br><span class="line">dateFormat  YYYY-MM-DD</span><br><span class="line">title 软件开发甘特图</span><br><span class="line">section 设计</span><br><span class="line">需求:done,    des1, 2014-01-06,2014-01-08</span><br><span class="line">原型:active,  des2, 2014-01-09, 3d</span><br><span class="line">UI设计:des3, after des2, 5d</span><br><span class="line">未来任务:des4, after des3, 5d</span><br><span class="line">section 开发</span><br><span class="line">学习准备理解需求:crit, done, 2014-01-06,24h</span><br><span class="line">设计框架:crit, done, after des2, 2d</span><br><span class="line">开发:crit, active, 3d</span><br><span class="line">未来任务:crit, 5d</span><br><span class="line">耍:2d</span><br><span class="line">section 测试</span><br><span class="line">功能测试:active, a1, after des3, 3d</span><br><span class="line">压力测试:after a1  , 20h</span><br><span class="line">测试报告: 48h</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>computer language learning</category>
+      </categories>
+      <tags>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++</title>
+    <url>/C++/</url>
+    <content><![CDATA[<h1 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h1><h3 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Node</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> data;</span><br><span class="line">    Node *next;</span><br><span class="line">&#125;;</span><br><span class="line">Node *head,*tail;</span><br><span class="line">head=<span class="keyword">new</span> Node;</span><br><span class="line">head-&gt;data=<span class="number">0</span>;</span><br><span class="line">head-&gt;next=<span class="literal">nullptr</span>;</span><br><span class="line">tail=head;</span><br></pre></td></tr></table></figure>
+
+<h3 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> num;</span><br><span class="line"><span class="built_in">cin</span>&gt;&gt;num;</span><br><span class="line">Node *head,*pnew,*tail;</span><br><span class="line">head=<span class="keyword">new</span> Node;</span><br><span class="line">head-&gt;data=num;</span><br><span class="line">head-&gt;next=<span class="literal">nullptr</span>;</span><br><span class="line">tail=head;</span><br><span class="line"><span class="keyword">while</span>(num--)&#123;</span><br><span class="line">    <span class="keyword">int</span> data;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;data;</span><br><span class="line">    pnew=<span class="keyword">new</span> Node;</span><br><span class="line">    pnew-&gt;data=data;</span><br><span class="line">    pnew-&gt;next=<span class="literal">nullptr</span>;</span><br><span class="line">    tail-&gt;next=pnew;</span><br><span class="line">    tail=pnew;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">show</span><span class="params">(Node *head)</span></span>;</span><br><span class="line"></span><br><span class="line">show(head);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">show</span><span class="params">(Node *head)</span></span>&#123;</span><br><span class="line">    <span class="comment">//cout&lt;&lt;head-&gt;data&lt;&lt;' ';</span></span><br><span class="line">    <span class="keyword">while</span>(head-&gt;next)&#123;</span><br><span class="line">        head=head-&gt;next;</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;head-&gt;data;</span><br><span class="line">        <span class="keyword">if</span>(head-&gt;next)</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;<span class="string">' '</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="销毁"><a href="#销毁" class="headerlink" title="销毁"></a>销毁</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">destroy</span><span class="params">(Node *head)</span></span>;</span><br><span class="line"></span><br><span class="line">destroy(head);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">destroy</span><span class="params">(Node *head)</span></span>&#123;</span><br><span class="line">    Node *p;</span><br><span class="line">    <span class="keyword">while</span>(head-&gt;next)&#123;</span><br><span class="line">        p=head-&gt;next;</span><br><span class="line">        head-&gt;next=p-&gt;next;</span><br><span class="line">        <span class="keyword">delete</span> p;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">delete</span> head;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">deletenode</span><span class="params">(Node *H,<span class="keyword">int</span> i)</span></span>;</span><br><span class="line"></span><br><span class="line">deletenode(head,i);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">deletenode</span><span class="params">(Node *H,<span class="keyword">int</span> i)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(i&gt;=<span class="number">1</span> &amp;&amp; i&lt;=H-&gt;data)&#123;</span><br><span class="line">        Node *q=H;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;i;j++)&#123;</span><br><span class="line">            q=q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        Node *p=q-&gt;next;</span><br><span class="line">        q-&gt;next=p-&gt;next;</span><br><span class="line">        H-&gt;data--;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">insert</span><span class="params">(Node *H,<span class="keyword">int</span> i,<span class="keyword">int</span> data)</span></span>;</span><br><span class="line"></span><br><span class="line">insert(head,index,data);</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">insert</span><span class="params">(Node *H,<span class="keyword">int</span> i,<span class="keyword">int</span> data)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(i&gt;=<span class="number">1</span> &amp;&amp; i&lt;=H-&gt;data+<span class="number">1</span>)&#123;</span><br><span class="line">        Node *p=<span class="keyword">new</span> Node;</span><br><span class="line">        Node *q=H;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;i;j++)&#123;</span><br><span class="line">            q=q-&gt;next;</span><br><span class="line">        &#125;</span><br><span class="line">        p-&gt;data=data;</span><br><span class="line">        p-&gt;next=q-&gt;next;</span><br><span class="line">        q-&gt;next=p;</span><br><span class="line">        H-&gt;data++;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="常用库函数"><a href="#常用库函数" class="headerlink" title="常用库函数"></a>常用库函数</h1><h3 id="最大最小值"><a href="#最大最小值" class="headerlink" title="最大最小值"></a>最大最小值</h3><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;climits&gt;</span></span></span><br><span class="line"><span class="keyword">int</span> <span class="built_in">min</span>=INT_MAx;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">max</span>=INT_MIN;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>computer language learning</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>oj</title>
+    <url>/oj/</url>
+    <content><![CDATA[<h1 id="潜规则"><a href="#潜规则" class="headerlink" title="潜规则"></a>潜规则</h1><ul>
+<li>输出后不留空格，下可留换行</li>
+</ul>
+<h1 id="经典算法"><a href="#经典算法" class="headerlink" title="经典算法"></a>经典算法</h1><h2 id="Minecraft"><a href="#Minecraft" class="headerlink" title="Minecraft"></a>Minecraft</h2><p>描述</p>
+<blockquote>
+<p>Minecraft是一个几乎无所不能的沙盒游戏，玩家可以利用游戏内的各种资源进行创造，搭建自己的世界。<br>在Minecraft中，基本的建筑元素是边长为1个单位的立方体，Tony想用N个这种小立方体搭建一个长方体，并用他珍藏已久的贴纸对其进行装饰。如果一张贴纸可以贴满小立方体的一个面。那么，他需要用掉多少张贴纸呢？</p>
+</blockquote>
+<p>输入</p>
+<blockquote>
+<p>一个整数N，表示小明所拥有的小立方体的个数。N不会超过1000。</p>
+</blockquote>
+<p>输出</p>
+<blockquote>
+<p>一个整数，即小明最少用掉的贴纸有多少张。</p>
+</blockquote>
+<p>输入样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">9</span><br></pre></td></tr></table></figure>
+<p>输出样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">30</span><br></pre></td></tr></table></figure>
+<p>参考代码</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;climits&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> <span class="built_in">min</span>=INT_MAX;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;n;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;n;j++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(n%(i*j)==<span class="number">0</span>)&#123;</span><br><span class="line">                <span class="keyword">int</span> k=n/(i*j),s;</span><br><span class="line">                s=<span class="number">2</span>*(i*j+i*k+j*k);</span><br><span class="line">                <span class="keyword">if</span>(s&lt;<span class="built_in">min</span>)</span><br><span class="line">                    <span class="built_in">min</span>=s;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;<span class="built_in">min</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="线段相交"><a href="#线段相交" class="headerlink" title="线段相交"></a>线段相交</h2><p>描述</p>
+<blockquote>
+<p>每个线段是用平面上的两个点来描述，用结构体实现对于任意输入的2个线段，判断其是否相交。<br>提示：两点(x1,y1), (x2,y2) 间直线斜率是k=(y2-y1)/(x2-x1).</p>
+</blockquote>
+<p>输入</p>
+<blockquote>
+<p>判断次数和2条线段的x1、y1、x2、y2</p>
+</blockquote>
+<p>输出</p>
+<blockquote>
+<p>是否相交</p>
+</blockquote>
+<p>输入样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3 </span><br><span class="line">1 5 2 9</span><br><span class="line">1 3 2 4 </span><br><span class="line">5 6 7 8 </span><br><span class="line">5 7 7 7 </span><br><span class="line">2 5 1 0 </span><br><span class="line">9 4 2 9</span><br></pre></td></tr></table></figure>
+<p>输出样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">disjoint</span><br><span class="line">intersect</span><br><span class="line">disjoint</span><br></pre></td></tr></table></figure>
+<p>参考代码</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">point</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> x1,y1,x2,y2;</span><br><span class="line">    <span class="keyword">double</span> k;</span><br><span class="line">    <span class="keyword">double</span> b;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> t;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;t;</span><br><span class="line">    <span class="keyword">while</span>(t--)&#123;</span><br><span class="line">        <span class="built_in">point</span> point1,point2;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;point1.x1&gt;&gt;point1.y1&gt;&gt;point1.x2&gt;&gt;point1.y2;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;point2.x1&gt;&gt;point2.y1&gt;&gt;point2.x2&gt;&gt;point2.y2;</span><br><span class="line">        point1.k=<span class="keyword">float</span>(point1.y2-point1.y1)/<span class="keyword">float</span>(point1.x2-point1.x1);</span><br><span class="line">        point2.k=<span class="keyword">float</span>(point2.y2-point2.y1)/<span class="keyword">float</span>(point2.x2-point2.x1);</span><br><span class="line">        point1.b=point1.y1-point1.k*point1.x1;</span><br><span class="line">        point2.b=point2.y1-point2.k*point2.x1;</span><br><span class="line">        <span class="keyword">double</span> y1,y2,y3,y4;</span><br><span class="line">        y1=point1.k*point2.x1+point1.b-point2.y1;</span><br><span class="line">        y2=point1.k*point2.x2+point1.b-point2.y2;</span><br><span class="line">        y3=point2.k*point1.x1+point2.b-point1.y1;</span><br><span class="line">        y4=point2.k*point1.x2+point2.b-point1.y2;</span><br><span class="line">        <span class="keyword">if</span>(y1*y2&lt;=<span class="number">0</span> &amp;&amp; y3*y4&lt;=<span class="number">0</span>)</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;<span class="string">"intersect"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;<span class="string">"disjoint"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="判断矩形是否重叠"><a href="#判断矩形是否重叠" class="headerlink" title="判断矩形是否重叠"></a>判断矩形是否重叠</h2><p>描述</p>
+<blockquote>
+<p>用具有x,y两个整型变量成员的结构类型SPoint来表示坐标点。用SRect结构类型来描述矩形，其中包含p1和p2两个SPoint成员分别表示矩形对角线上的两个点。<br>编写判断两个矩形是否重叠的函数。</p>
+</blockquote>
+<p>输入</p>
+<blockquote>
+<p>判断次数<br>矩形1的对角线顶点坐标x1、y1、x2、y2<br>矩形2的对角线顶点坐标x1、y1、x2、y2<br>……</p>
+</blockquote>
+<p>输出</p>
+<blockquote>
+<p>是否重叠</p>
+</blockquote>
+<p>输入样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">1 5 2 9</span><br><span class="line">1 3 2 4</span><br><span class="line">5 6 7 8</span><br><span class="line">5 7 7 7</span><br><span class="line">2 5 1 0</span><br><span class="line">9 4 2 9</span><br></pre></td></tr></table></figure>
+<p>输出样例</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">not overlapped</span><br><span class="line">overlapped</span><br><span class="line">overlapped</span><br></pre></td></tr></table></figure>
+<p>参考代码</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">SPoint</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> x1,y1,x2,y2;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> t;</span><br><span class="line">    <span class="built_in">cin</span>&gt;&gt;t;</span><br><span class="line">    <span class="keyword">while</span>(t--)&#123;</span><br><span class="line">        SPoint p1,p2;</span><br><span class="line">        <span class="keyword">int</span> t;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;p1.x1&gt;&gt;p1.y1&gt;&gt;p1.x2&gt;&gt;p1.y2;</span><br><span class="line">        <span class="built_in">cin</span>&gt;&gt;p2.x1&gt;&gt;p2.y1&gt;&gt;p2.x2&gt;&gt;p2.y2;</span><br><span class="line">        <span class="keyword">if</span>(p1.x2&lt;p1.x1)&#123;</span><br><span class="line">            t=p1.x1;</span><br><span class="line">            p1.x1=p1.x2;</span><br><span class="line">            p1.x2=t;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p1.y2&gt;p1.y1)&#123;</span><br><span class="line">            t=p1.y1;</span><br><span class="line">            p1.y1=p1.y2;</span><br><span class="line">            p1.y2=t;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p2.x2&lt;p2.x1)&#123;</span><br><span class="line">            t=p2.x1;</span><br><span class="line">            p2.x1=p2.x2;</span><br><span class="line">            p2.x2=t;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p2.y2&gt;p2.y1)&#123;</span><br><span class="line">            t=p2.y1;</span><br><span class="line">            p2.y1=p2.y2;</span><br><span class="line">            p2.y2=t;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p1.y2&gt;p2.y1 || p1.y1&lt;p2.y2 || p1.x2&lt;p2.x1 || p1.x1&gt;p2.x2)</span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;<span class="string">"not overlapped"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            <span class="built_in">cout</span>&lt;&lt;<span class="string">"overlapped"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>computer language learning</category>
+      </categories>
+      <tags>
+        <tag>oj</tag>
+      </tags>
+  </entry>
+</search>

@@ -145,7 +145,7 @@
   </entry>
   <entry>
     <title>Blog</title>
-    <url>/blog/</url>
+    <url>/Blog/</url>
     <content><![CDATA[<h1 id="Hexo-Github免费搭建个人博客"><a href="#Hexo-Github免费搭建个人博客" class="headerlink" title="Hexo+Github免费搭建个人博客"></a>Hexo+Github免费搭建个人博客</h1><p>效果浏览:<a href="https://bingoyyj.github.io/" target="_blank" rel="noopener">我的博客</a></p>
 <h2 id="安装Git和Node-js"><a href="#安装Git和Node-js" class="headerlink" title="安装Git和Node.js"></a>安装Git和Node.js</h2><p>直接去<a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a>和<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a>官网下载，下载较简单，这里不赘述。</p>
 <h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>命令行输入即可</p>

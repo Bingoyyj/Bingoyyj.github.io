@@ -157,7 +157,7 @@
 <p>运行成功后我们可以发现文件夹下新增了很多文件<br>其中含有_config.yml文件 ，这个文件就是网站主题的的配置文件，后面和github page关联和切换主题时，需要使用到。</p>
 <h2 id="生成静态文件和开启服务"><a href="#生成静态文件和开启服务" class="headerlink" title="生成静态文件和开启服务"></a>生成静态文件和开启服务</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
-<p>ctrl+c 关闭本地服务器<br>打开<a href="http://localhost:4000/即可看到你的博客雏形。" target="_blank" rel="noopener">http://localhost:4000/即可看到你的博客雏形。</a><br>当然，这个只能在本地访问。</p>
+<p>ctrl+c 关闭本地服务器<br>打开 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a> 即可看到你的博客雏形。<br>当然，这个只能在本地访问。</p>
 <h2 id="注册Github账号、新建一个仓库"><a href="#注册Github账号、新建一个仓库" class="headerlink" title="注册Github账号、新建一个仓库"></a>注册<a href="https://github.com/" target="_blank" rel="noopener">Github</a>账号、新建一个仓库</h2><p>注意:</p>
 <ul>
 <li>尾缀必须是github.io</li>
